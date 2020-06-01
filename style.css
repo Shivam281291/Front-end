@@ -1,0 +1,164 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font: 10 px 
+}
+
+.leftchild{
+    position: relative;
+    float: left;
+    width: 40%;
+    min-width: 40%;
+    height: 100vh;
+    background-color: #015b8d;
+}
+.rightchild{
+    position: relative;
+    float: right;
+    width: 60%;
+    min-width: 60%;
+    height: 100vh;
+   
+}
+.partition{
+    position: absolute;
+    top: 0px;
+    left: 33%;
+    height: 100%;
+   
+}
+#wave{
+    height: 750px;
+    min-height: 750px;
+}
+.mylogo{
+    width: 50%;
+}
+.logo{
+    position: absolute;
+    left: 6%;
+}
+.inputbox{
+    position: absolute;
+    top: 60%;
+    left: 6%;
+    font-family: "Roboto","Cambria","lucida grande","lucida sans","sans-serif",tahoma,helvetica,arial;
+    color: white;
+    font-size: 1.1em;
+}
+.textbox1{
+    position: absolute;
+    top: 20%;
+    left: 6%;
+    color: white;
+    font-size: 50px;
+    font-family: "Roboto","Cambria","lucida grande","lucida sans","sans-serif",tahoma,helvetica,arial;
+}
+.textbox2{
+    position: absolute;
+    top: 270px;
+    left: 6%;
+    font-size: 50px;
+    color: white;
+    font-family: "Roboto","Cambria","lucida grande","lucida sans",Geneva,"sans-serif",tahoma,helvetica,arial;
+    
+}
+.textbox3{
+    position: absolute;
+    top: 350px;
+    left: 6%;
+    color: white;
+    font-size: 1.2em;
+    font-family:"Roboto","Cambria","lucida grande","lucida sans",Geneva,"sans-serif",tahoma,helvetica,arial
+}
+
+.image_table{
+    position: absolute;
+    top: 150px;
+    left: 130px;
+    padding: 0;
+    height: 520px;
+    border-collapse: collapse;
+}
+
+#reg_guy{
+    width: 220px;
+    height: 520px;
+    
+}
+.dotted{
+    width: 150px;
+    top: 0px;
+    text-align: center;
+}
+#line_dotted{
+    height: 580px; ;
+}
+.one_banc_man{
+    top: 30px;
+    left: 50px;
+}
+#one_man{
+    width: 280px;
+    height: 520px;
+}
+
+.regular_guy .dotted .one_banc_man{
+    display: inline-block;
+}
+#cursor{
+    position: absolute;
+    font-weight: 300;
+    line-height: 40px;
+    top: 5px;
+}
+.title_low{
+    font-family: 'Comic Sans MS',"Roboto","Cambria","lucida grande","lucida sans",Geneva,"sans-serif",tahoma,helvetica,arial;
+    text-align: center;
+    color: #000;
+    font-size: 1.9em;
+    position: absolute;
+    
+}
+input[type=text] {
+
+    width: 65%;
+    height: 38px;
+    border: none;
+}
+input[type = submit] {
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    top: 36%;
+    left: 65%;
+    width: 12%;
+    height: 64%;
+    color: white;
+    text-align: center;
+    background-color:#00d9e3;
+    border:none;
+}
+.copyright{
+        
+        color: white;
+        font-size: 0.9em;
+}
+.footer{
+    position: absolute;
+    top: 540px;
+    left: 5%;
+}
+.new_regular_guy{
+    display: none;
+}
+.footer1{
+    display: none;
+}
+#validation{
+    position: absolute;
+    font-size: 20px;
+    top: 100%;
+}
